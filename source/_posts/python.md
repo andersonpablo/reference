@@ -220,20 +220,14 @@ See: [Lists](#python-lists)
 my_tuple = (1, 2, 3)
 my_tuple = tuple((1, 2, 3))
 
-tupla = (1, 2, 3, 'python')
+tuple = (1, 2, 3, 'python')
 
-print(tupla[0])       # Output: 1
-print(tupla.count(1)) # Count occurrences
-print(tupla.index(2)) # Find index
+print(tuple[0])       # Output: 1
+print(tuple.count(1)) # Count occurrences
+print(tuple.index(2)) # Find index
 
-tupla1 = (1, 2, 3)
-tupla2 = ('a', 'b')
-
-len(tuple) → Returns the number of elements.
-in → Checks if an element exists in the tuple.
-Concatenation (+) → Combines two tuples.
-Repetition (*) → Repeats a tuple.
-Slicing (tuple[start:end]) → Extracts a subtuple.
+tuple1 = (1, 2, 3)
+tuple2 = ('a', 'b')
 
 print(len(tupla1))       # Output: 3
 print(2 in tupla1)       # Output: True
